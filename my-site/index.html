@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO CORE -->
+<title>Website Maker in Pakistan | Affordable Web Design by Abdul Muqeet</title>
+<meta name="description" content="Professional website maker in Pakistan. Modern, fast, mobile-friendly websites with free hosting. Trusted by businesses & startups.">
+<meta name="author" content="Abdul Muqeet">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://website-makers.netlify.app/">
+
+<!-- OPEN GRAPH (WhatsApp / Facebook Preview) -->
+<meta property="og:title" content="Website Maker in Pakistan – Abdul Muqeet">
+<meta property="og:description" content="Professional, fast & SEO-ready websites with free hosting.">
+<meta property="og:url" content="https://website-makers.netlify.app/">
+<meta property="og:type" content="website">
+
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abdul Muqeet",
+  "jobTitle": "Website Developer",
+  "url": "https://website-makers.netlify.app",
+  "sameAs": [
+    "https://wa.me/923331666923"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "PK"
+  }
+}
+</script>
+
+<style>
+:root{
+  --primary:#1e3a8a;
+  --accent:#22c55e;
+  --bg:#f3f4f6;
+  --soft:#f8fafc;
+  --card:#f9fafb;
+  --text:#111827;
+  --muted:#475569;
+  --btn-gradient: linear-gradient(90deg,#22c55e,#16a34a);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.75;
+}
+nav{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:rgba(248,250,252,.85);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid #e5e7eb;
+}
+nav ul{
+  display:flex;
+  justify-content:center;
+  gap:28px;
+  padding:16px;
+  list-style:none;
+  flex-wrap:wrap;
+}
+nav a{
+  text-decoration:none;
+  font-weight:600;
+  color:var(--primary);
+}
+header{
+  background:linear-gradient(135deg,#1e3a8a,#2563eb);
+  color:#fff;
+  padding:130px 20px;
+  text-align:center;
+}
+header h1{
+  font-size:clamp(2.5rem,5vw,3.6rem);
+}
+header p{
+  margin:18px auto 0;
+  max-width:720px;
+  font-size:1.15rem;
+  opacity:.95;
+}
+.btn{
+  display:inline-block;
+  margin-top:40px;
+  padding:16px 44px;
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  border-radius:999px;
+  font-weight:600;
+  transition:.3s ease;
+  box-shadow:0 12px 30px rgba(34,197,94,.35);
+}
+.btn:hover{
+  background:#16a34a;
+  transform:translateY(-3px);
+}
+section{
+  padding:110px 20px;
+  max-width:1200px;
+  margin:auto;
+}
+.soft{
+  background:linear-gradient(180deg,#f8fafc,#f1f5f9);
+  border-radius:42px;
+}
+.section-title{
+  text-align:center;
+  font-size:2.4rem;
+  margin-bottom:60px;
+  color:var(--primary);
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:32px;
+}
+.card{
+  background:var(--card);
+  padding:40px;
+  border-radius:26px;
+  border:1px solid #e5e7eb;
+  box-shadow:0 18px 45px rgba(0,0,0,.08);
+  transition:.35s ease;
+  text-align:center;
+}
+.card:hover{transform:translateY(-10px)}
+.card h3{color:#2563eb;margin-bottom:14px}
+.card p{color:var(--muted)}
+.stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:42px;
+  text-align:center;
+}
+.stat{
+  font-size:3rem;
+  font-weight:700;
+  color:var(--accent);
+}
+.stat-label{
+  margin-top:6px;
+  font-size:1rem;
+  color:var(--muted);
+}
+.step{
+  font-size:3rem;
+  color:#93c5fd;
+  font-weight:700;
+  margin-bottom:10px;
+}
+details{
+  background:var(--card);
+  padding:24px;
+  border-radius:18px;
+  margin-bottom:16px;
+  border:1px solid #e5e7eb;
+}
+summary{cursor:pointer;font-weight:600}
+.cta{text-align:center}
+.cta h2{
+  font-size:2.6rem;
+  color:var(--primary);
+}
+.cta p{
+  margin:18px auto 40px;
+  max-width:720px;
+  color:var(--muted);
+}
+.demo-link{
+  display:inline-block;
+  margin:12px 0;
+  padding:16px 28px;
+  font-weight:600;
+  color:#fff;
+  text-decoration:none;
+  border-radius:999px;
+  background:var(--btn-gradient);
+  background-size:200% 100%;
+  transition:.4s ease;
+  box-shadow:0 8px 22px rgba(0,0,0,.25);
+}
+.demo-link:hover{
+  background-position:100% 0;
+  transform:translateY(-3px) scale(1.05);
+}
+footer{
+  background:#020617;
+  color:#e5e7eb;
+  text-align:center;
+  padding:55px 15px;
+  font-size:.95rem;
+}
+.whatsapp{
+  position:fixed;
+  bottom:28px;
+  right:28px;
+  background:#25D366;
+  color:#fff;
+  padding:16px 24px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-weight:600;
+  text-decoration:none;
+  box-shadow:0 16px 38px rgba(0,0,0,.35);
+  opacity:0;
+  visibility:hidden;
+  transition:.4s ease;
+  z-index:999;
+}
+.whatsapp img{width:22px}
+.whatsapp.show{opacity:1;visibility:visible}
+@media(max-width:600px){
+header{padding:95px 16px}
+.whatsapp span{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/services.html">Services</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="#demos">Demos</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<header>
+<h1>Professional Website Maker in Pakistan</h1>
+<p>I create modern, high-converting websites that help businesses build trust, attract customers, and grow online.</p>
+<a class="btn" href="#contact">Get Your Website</a>
+</header>
+
+<section id="services">
+<h2 class="section-title">What You Get</h2>
+
+<p style="text-align:center;max-width:800px;margin:30px auto;color:#475569;">
+I provide <strong>professional website development in Pakistan</strong> for businesses, startups,
+and personal brands. My websites are fast, SEO-ready, mobile-friendly, and hosted for free.
+</p>
+
+<div class="grid">
+<div class="card"><h3>Premium Design</h3><p>Clean layouts that instantly build credibility.</p></div>
+<div class="card"><h3>Mobile-First</h3><p>Perfect experience on every screen size.</p></div>
+<div class="card"><h3>Fast & Secure</h3><p>Optimized performance with free hosting.</p></div>
+<div class="card"><h3>SEO Ready</h3><p>Structured for better Google visibility.</p></div>
+</div>
+</section>
+
+<section class="soft">
+<h2 class="section-title">Why Clients Choose Me</h2>
+<div class="stats">
+<div><div class="stat">50+</div><div class="stat-label">Projects Completed</div></div>
+<div><div class="stat">100%</div><div class="stat-label">Client Satisfaction</div></div>
+<div><div class="stat">Fast</div><div class="stat-label">Turnaround Time</div></div>
+</div>
+</section>
+
+<section id="process">
+<h2 class="section-title">Simple 3-Step Process</h2>
+<div class="grid">
+<div class="card"><div class="step">01</div><h3>Discuss</h3><p>We clarify your goals and requirements.</p></div>
+<div class="card"><div class="step">02</div><h3>Design & Build</h3><p>I craft a professional website.</p></div>
+<div class="card"><div class="step">03</div><h3>Launch</h3><p>Your site goes live with free hosting.</p></div>
+</div>
+</section>
+
+<section id="demos">
+<h2 class="section-title">Demo Websites</h2>
+<div class="grid">
+<div class="card"><h3>Tesla Demo</h3><a class="demo-link" href="https://muqeet-tesla.netlify.app/" target="_blank">View Demo</a></div>
+<div class="card"><h3>Rolls Royce Demo</h3><a class="demo-link" href="https://muqeet-rolls-royce.netlify.app/" target="_blank">View Demo</a></div>
+<div class="card"><h3>MIC Demo</h3><a class="demo-link" href="https://mic-muqeet.netlify.app/" target="_blank">View Demo</a></div>
+</div>
+</section>
+
+<section class="soft faq">
+<h2 class="section-title">FAQs</h2>
+<details><summary>Is hosting included?</summary><p>Yes, free and reliable Netlify hosting.</p></details>
+<details><summary>How long does it take?</summary><p>Usually 2–5 working days.</p></details>
+<details><summary>Can I upgrade later?</summary><p>Yes, anytime.</p></details>
+</section>
+
+<section id="contact" class="cta">
+<h2>Ready to Start?</h2>
+<p>Let’s build a website that truly represents your business and brings real results.</p>
+<a class="btn" href="https://wa.me/923331666923?text=Hello%20I%20need%20a%20professional%20website" target="_blank">Chat on WhatsApp</a>
+</section>
+
+<footer>
+© 2026 Website Makers — Abdul Muqeet<br>
+Professional Website Development • Pakistan | Website Maker in Pakistan
+</footer>
+
+<a class="whatsapp" href="https://wa.me/923331666923" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Website Maker in Pakistan WhatsApp Contact">
+<span>Chat Now</span>
+</a>
+
+<script>
+const w=document.querySelector('.whatsapp');
+window.addEventListener('scroll',()=>w.classList.toggle('show',scrollY>250));
+</script>
+
+</body>
+</html>
